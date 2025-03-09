@@ -1,0 +1,45 @@
+# Global ignores
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore dependencies
+node_modules/
+
+# Ignore build files
+dist/
+build/
+
+# Specific ignores for backend and client
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/.env.test
+
+client/node_modules/
+client/dist/
+client/build/
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+client/.env.test
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
